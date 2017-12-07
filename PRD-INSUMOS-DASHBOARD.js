@@ -30,6 +30,17 @@ require( ["js/qlik"], function ( qlik ) {
 	var app = qlik.openApp('PRD-INSUMOS.qvf', config);
 
 	//get objects -- inserted here --
+	app.getObject('QV08','FAvejXs');
+	app.getObject('QV07','RMuPV');
+	app.getObject('QV06','hPHcnu');
+	app.getObject('QV11','zvgrdJL');
+	app.getObject('QV10','PApCDy');
+	app.getObject('QV05','wtBpjth');
+	app.getObject('QV04','PzswjRE');
+	app.getObject('QV03','kjWdDY');
+	app.getObject('QV02','FPSFXf');
+	app.getObject('QV01','dTBdY');
+	app.getObject('QV09','zbxPuX');
 	
 	
 	
