@@ -95,7 +95,16 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">Menu</li>
         <!-- Optionally, you can add icons to the links -->
-        <li class="active"><a href="Ci-Dashboard.html"><i class="fa fa-cubes"></i> <span>Insumos</span></a></li>
+        <li class="treeview active">
+          <a href="PRD-INSUMOS-DASHBOARD.html"><i class="fa fa-cubes"></i> <span>Insumos</span></a>
+          <ul class="treeview-menu">
+            <li><a href="#ASC">Años / Sociedades / Centros</a></li>
+            <li><a href="#VISIONGRAL">Visiones Generales</a></li>
+            <li><a href="#TENDENCIAS">Tendencias</a></li>
+            <li><a href="#DIMENSIONES">Dimensiones</a></li>
+            <li><a href="">Titulo #5</a></li>
+          </ul>  
+        </li>
         <!--<li><a href="#"><i class="fa fa-user-plus"></i> <span>Creador de Clientes</span></a></li>
         <li class="treeview">
           <a href="#"><i class="ion-folder"></i> <span>Documentos de Venta</span>
@@ -121,7 +130,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <div class="col-md-3"> <!--Calendario-->
         <div id="QV09" class="calendario qvobject" style="padding:0;"></div>
       </div>
-      <div class="col-md-4"><!--Mone-->
+      <div class="col-md-4"><!--Moneda-->
         <div id="QV19" class="calendario qvobject" style="padding:0;"></div>
       </div>
     </div>
@@ -134,7 +143,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
     <!-- Main content -->
     <section class="content container-fluid">
-      <h3>Años / Sociedades / Centros</h3>
+      <h3 id="ASC">Años / Sociedades / Centros</h3>
 		<div class="row">
 			<div class="col-md-4">
 				<div id="QV01" class="Range-objects qvobject"></div>
@@ -148,7 +157,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     </div>
 
 
-    <h3>Vision General</h3>
+    <h3 id="VISIONGRAL">Vision General</h3>
     <div class="row">
       <div class="col-md-6">
         <div id="QV04" class="treemaps qvobject"></div>
@@ -174,7 +183,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
         </div>
       </div>
     
-    <h3>Tendencias de materiales y/o servicios</h3>
+    <h3 id="TENDENCIAS">Tendencias de materiales y/o servicios</h3>
    
       <div class="col-md-12">
         <div id="QV06" class="tendency-objects qvobject"></div>
@@ -189,25 +198,37 @@ scratch. This page gets rid of all links and provides the needed markup only.
         <div id="QV14" class="tendency-objects qvobject"></div>
       </div>
 
-      <h3>Dimensiones de Materiales y productos</h3>
+      <h3 id="DIMENSIONES">Dimensiones de Materiales y productos</h3>
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6">
           <div id="QV15" class="dimension-objects qvobject"></div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6">
           <div id="QV16" class="dimension-objects qvobject"></div>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-6">
           <div id="QV17" class="dimension-objects qvobject"></div>
+        </div>
+        <div class="col-md-6">
+          <div id="QV18" class="dimension-objects qvobject"></div>
         </div>
       </div>
       <div class="row">
-        <div class="col-md-12">
-          <div id="QV18" class="dimension-objects qvobject"></div>
+        <div class="col-md-6">
+          <div id="QV20" class="dimesion-objects qvobject"></div>
+        </div>
+        <div class="col-md-6">
+          <div id="QV21" class="dimesion-objects qvobject"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div id="QV22" class="dimesion-objects qvobject"></div>
+        </div>
+        <div class="col-md-6">
+          <div id="QV23" class="dimesion-objects qvobject"></div>
         </div>
       </div>
       
