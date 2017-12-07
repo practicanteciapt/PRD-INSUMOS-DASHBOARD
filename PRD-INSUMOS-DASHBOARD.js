@@ -27,7 +27,24 @@ require( ["js/qlik"], function ( qlik ) {
 
 	//callbacks -- inserted here --
 	//open apps -- inserted here --
+	var app = qlik.openApp('PRD-INSUMOS.qvf', config);
+
 	//get objects -- inserted here --
+	
+	
+	
+	
+	
+	
+	app.getObject('CurrentSelections','CurrentSelections');
+	
+	
+	
+	
+	
+	
+	
+	
 	//create cubes and lists -- inserted here --
 
 } );

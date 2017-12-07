@@ -6,9 +6,25 @@
 
 .qvplaceholder, .qvobject {
 	flex: 1 1 auto;
-	height: 300px;
-	min-width: 400px;
-	margin: 45px 0 0 45px;
+	height: 200px;
+	margin: 20px 0 0 20px;
+}
+
+.Range-objects{
+	width: 250px;
+	height: 120px;
+}
+
+.calendario{
+	height: 50px;
+}
+
+.treemaps{
+	height: 400px;
+}
+
+.tendency-objects{
+	height: 500px;
 }
 
 #popup {
